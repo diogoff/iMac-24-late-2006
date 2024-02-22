@@ -16,7 +16,7 @@ To overcome this problem, I used [Matt Gadient's approach](https://mattgadient.c
 
 ## Why Xubuntu?
 
-After downloading an installation image for [64-bit Ubuntu](https://ubuntu.com/download/desktop) and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. (A previous experiment with [32-bit Debian](https://www.debian.org/distrib/netinst) made me feel so.)
+After downloading an installation image for [Ubuntu 22.04 LTS](https://ubuntu.com/download/desktop) and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. (A previous experiment with [32-bit Debian](https://www.debian.org/distrib/netinst) made me feel so.)
 
 Therefore, I opted for [Xubuntu](https://xubuntu.org/download/), whose installation image of about 3 GB was easier to download, modify, and burn into a DVD.
 
