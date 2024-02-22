@@ -14,7 +14,13 @@ To overcome this problem, use [Matt Gadient's approach](https://mattgadient.com/
 
 ## Why Xubuntu
 
-After downloading an installation image for 64-bit Ubuntu and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. Therefore, I opted for Xubuntu, whose installation image of 2 GB was quicker to download, modify, and burn into a DVD.
+After downloading an installation image for 64-bit Ubuntu and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. (A previous experiment with 32-bit Debian using GNOME made me feel so.)
+
+Therefore, I opted for Xubuntu, whose installation image of 2 GB was quicker to download, modify, and burn into a DVD.
+
+## Drivers for the WiFi card
+
+After installing Xubuntu, almost everything worked out of the box (including brightness control, which I couldn't make it work with Debian). However, there were some final touches that needed to be done. One of them was the WiFi adapter. For this, I had to go to `Software & Updates`, `Additional Drivers` tab, and select the Broadcom driver from `bcmwl-kernel-source (proprietary)`.
 
 
 
