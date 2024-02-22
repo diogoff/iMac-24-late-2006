@@ -1,4 +1,4 @@
-# How to install a 64-bit Linux distro on an iMac 24" (late 2006)
+# How to install 64-bit Linux on an iMac 24" (late 2006)
 
 This repo describes my experience in successfully installing a 64-bit Linux distro on an old iMac 24" (late 2006) with the following specs:
 * [Intel Core 2 Duo Processor T7400 @ 2.16 GHz](https://www.intel.com/content/www/us/en/products/sku/27256/intel-core2-duo-processor-t7400-4m-cache-2-16-ghz-667-mhz-fsb/specifications.html)
