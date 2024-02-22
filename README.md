@@ -8,7 +8,7 @@ This repo describes my experience in installing a 64-bit Linux distro on an old 
 
 ## Installing the OS
 
-Despite all my attempts to boot from a USB drive, I could only boot externally from the CD/DVD drive. Therefore, any installation image must be burned to a CD/DVD. In addition, burning an installation image from any modern 64-bit distro is useless, as it simply won't boot, getting stuck on "Select CD-ROM Boot Type".
+Despite all my attempts to boot from a USB drive, I could boot externally from the CD/DVD drive only. Therefore, any installation image must be burned to a CD/DVD. In addition, burning an installation image from any modern 64-bit distro is useless, as it simply won't boot, getting stuck on "Select CD-ROM Boot Type".
 
 To overcome this problem, I used [Matt Gadient's approach](https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/) of modifying the 64-bit image to make it bootable on a machine with 32-bit EFI, as is the case with this iMac. Basically, this consists in compiling and running `isomacprog.c` on the 64-bit ISO image that you would like to use. The commands are:
 * To compile: `cc -g -Wall isomacprog.c -o isomacprog`
