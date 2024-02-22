@@ -22,7 +22,7 @@ Therefore, I opted for [Xubuntu 22.04 LTS](https://xubuntu.org/download/), whose
 
 ## Drivers for the WiFi card
 
-After installing Xubuntu, almost everything worked out of the box (including brightness control, which didn't work on Debian). However, there were some final touches to do. One of them was the WiFi adapter. For this, I had to go to `Software & Updates`, `Additional Drivers` tab, and select the Broadcom driver from `bcmwl-kernel-source (proprietary)`.
+After installing Xubuntu, almost everything worked out of the box (including brightness control, which didn't work on Debian). However, there were some final touches that needed to be done. One of them was the WiFi adapter. For this, I had to go to `Software & Updates`, `Additional Drivers` tab, and select the Broadcom driver from `bcmwl-kernel-source (proprietary)`.
 
 ## Firmware for the iSight camera
 
