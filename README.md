@@ -26,13 +26,6 @@ After installing Xubuntu, almost everything worked out of the box (including bri
 
 Another thing that needed to be set up was the built-in camera. For this, I used [Jarret B's approach](https://www.linux.org/threads/installing-linux-on-an-imac.26009/) of installing `isight-firmware-tools` and providing the path to `AppleUSBVideoSupport`. The command is `sudo apt install isight-firmware-tools` and then specify the path to the downloaded `AppleUSBVideoSupport` file, for it to extract the camera firmware.
 
+## Wrapping up
 
-
-
-
-
-
-
-
-
-
+That's it! I've got an old iMac running 64-bit Xubuntu, where I can install modern software such as VSCode, Zoom, Chrome, etc. For Chrome to work properly, I had to disable hardware acceleration, since this was buggy with the old graphics card.
