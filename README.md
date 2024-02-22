@@ -14,9 +14,7 @@ To overcome this problem, use [Matt Gadient's approach](https://mattgadient.com/
 
 ## Why Xubuntu
 
-After downloading an installation image for 64-bit Ubuntu and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine.
-
-Therefore, I opted for Xubuntu, whose installation image of 2 GB was quicker to download, modify, and burn into a DVD.
+After downloading an installation image for 64-bit Ubuntu and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. Therefore, I opted for Xubuntu, whose installation image of 2 GB was quicker to download, modify, and burn into a DVD.
 
 
 
