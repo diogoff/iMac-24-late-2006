@@ -30,4 +30,4 @@ Another thing that needed to be set up was the built-in camera. For this, I used
 
 ## Wrapping up
 
-That's it! I've got an old iMac running a modern 64-bit Xubuntu, where I can install software such as VSCode, Zoom, Chrome, etc. For Chrome to work properly, I had to disable hardware acceleration, since this was buggy with the old graphics card.
+That's it! I've got an old iMac running a modern 64-bit Xubuntu, where I can install software such as [VSCode](https://code.visualstudio.com/), [Zoom](https://zoom.us/download?os=linux), [Chrome](https://www.google.com/chrome/?platform=linux), etc. For Chrome to work properly, I had to disable hardware acceleration, since this was buggy with the old graphics card.
