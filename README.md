@@ -10,7 +10,7 @@ This repo describes my experience in installing a 64-bit Linux distro on an old 
 
 Despite all my attempts to boot from a USB drive, I could only boot externally from the CD/DVD drive. Therefore, any installation image must be burned to a CD/DVD. In addition, burning an installation image from any modern 64-bit distro is useless, as it simply won't boot, getting stuck on "Select CD-ROM Boot Type".
 
-To overcome this problem, I used [Matt Gadient's approach](https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/) to modify the 64-bit image to make it bootable on a machine with 32-bit EFI. Basically, this consists in compiling and running `isomacprog.c` on the 64-bit ISO image that you would like to use. The commands are `cc -g -Wall isomacprog.c -o isomacprog` and `./isomacprog your-preferred-64-bit-image.iso`.
+To overcome this problem, I used [Matt Gadient's approach](https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/) of modifying the 64-bit image to make it bootable on a machine with 32-bit EFI. Basically, this consists in compiling and running `isomacprog.c` on the 64-bit ISO image that you would like to use. The commands are `cc -g -Wall isomacprog.c -o isomacprog` and `./isomacprog your-preferred-64-bit-image.iso`.
 
 ## Why Xubuntu
 
