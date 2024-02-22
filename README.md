@@ -26,7 +26,7 @@ After installing Xubuntu, almost everything worked out of the box (including bri
 
 ## Firmware for the iSight camera
 
-Another thing that needed to be set up was the built-in camera. For this, I used [Jarret B's approach](https://www.linux.org/threads/installing-linux-on-an-imac.26009/) of installing `isight-firmware-tools` and providing the path to `AppleUSBVideoSupport`. The command is `sudo apt install isight-firmware-tools` and then, during installation, specify the path to the downloaded `AppleUSBVideoSupport` file, for it to extract the camera firmware.
+Another thing that needed to be set up was the built-in camera. For this, I used [Jarret B's approach](https://www.linux.org/threads/installing-linux-on-an-imac.26009/) of installing `isight-firmware-tools` and providing the path to `AppleUSBVideoSupport`. The command is `sudo apt install isight-firmware-tools` and then, during installation, specify the path to the downloaded `AppleUSBVideoSupport` file, for it to extract the camera firmware. Reboot and _voilà_!
 
 ## Wrapping up
 
