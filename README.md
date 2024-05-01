@@ -20,11 +20,11 @@ After downloading an installation image for [Ubuntu 22.04 LTS](https://ubuntu.co
 
 Therefore, I opted for [Xubuntu 22.04 LTS](https://xubuntu.org/download/), whose installation image of about 3 GB was easier to download, modify, and burn into a DVD.
 
-## Drivers for the WiFi card
+## WiFi card
 
-After installing Xubuntu, almost everything worked out of the box (including brightness control, which didn't work on Debian). However, there were some final touches that needed to be done. One of them was the WiFi adapter. For this to work, I had to go to `Software & Updates`, `Additional Drivers`, let the system detect the hardware, and select the Broadcom driver from `bcmwl-kernel-source (proprietary)`.
+After installing Xubuntu, almost everything worked out of the box (including brightness control, which didn't work on Debian). However, there were some final touches that needed to be done. One of them was the WiFi adapter. For this to work, I had to `sudo apt install firmware-b43-installer` (rather than `bcmwl-kernel-source`, which apparently worked, but provided no network connectivity).
 
-## Firmware for the iSight camera
+## iSight camera
 
 Another thing that needed to be set up was the built-in camera. For this, I used [Jarret B's approach](https://www.linux.org/threads/installing-linux-on-an-imac.26009/) of installing `isight-firmware-tools` and providing the path to `AppleUSBVideoSupport`. The command is `sudo apt install isight-firmware-tools` and then, during installation, specify the path to the downloaded `AppleUSBVideoSupport` file, for it to extract the camera firmware. Reboot and _voilà_!
 
