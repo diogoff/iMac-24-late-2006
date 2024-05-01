@@ -6,7 +6,7 @@ This repo describes my experience in installing a 64-bit Linux distro on an old 
 * 120 GB SSD, by replacing the original HDD with a [Kingston SV300S3B7A/120G](https://www.kingston.com/en/memory/search/discontinuedmodels?partid=SV300S3B7A%2F120G), including a 2.5" to 3.5" adapter
 * NVIDIA GeForce 7600 GT graphics card
 
-## Installing the OS
+## OS image
 
 Despite all my attempts to boot from a USB drive, I could only boot externally from the CD/DVD drive. Therefore, any installation image must be burned to a CD/DVD. However, burning an installation image from any modern 64-bit distro is useless, as it simply won't boot, getting stuck on "Select CD-ROM Boot Type".
 
@@ -14,7 +14,7 @@ To overcome this problem, I used [Matt Gadient's approach](https://mattgadient.c
 * To compile: `cc -g -Wall isomacprog.c -o isomacprog`
 * To run: `./isomacprog your-preferred-64-bit-image.iso`.
 
-## Why Xubuntu?
+## Xubuntu
 
 After downloading an installation image for [Ubuntu 22.04 LTS](https://ubuntu.com/download/desktop) and modifying it by running `isomacprog`, I was in for a surprise. The image was 5 GB, but my DVDs were 4.7 GB capacity. On the other hand, I thought that mainstream Ubuntu, with the GNOME desktop environment, was probably too much for this machine. (A previous experiment with [Debian i386](https://www.debian.org/distrib/netinst) and GNOME made me feel so.)
 
